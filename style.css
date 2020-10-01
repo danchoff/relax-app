@@ -74,6 +74,19 @@ body {
   display: block;
 }
 
+.buttons {
+  margin: 0 auto;
+}
+
+.play {
+  font-size: 32px;
+  margin-right: 1em;
+}
+
+.pause {
+  margin-right:0;
+}
+
 .container.grow {
   animation: grow 3s linear forwards;
 }

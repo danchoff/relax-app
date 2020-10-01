@@ -4,9 +4,15 @@ const text = document.querySelector('#text')
 const totalTime = 7500
 const breatheTime = (totalTime / 5) * 2
 const holdTime = totalTime / 5
+const audio = new Audio('song/lofi-song.mp3')
 
-let audio = new Audio('song/lofi-song.mp3')
-audio.play()
+function playSong() {
+  audio.play()
+}  
+
+function pauseSong() {
+  audio.pause()
+}
 
 breatheAnimation()
 
@@ -25,3 +31,5 @@ function breatheAnimation () {
 }
 
 setInterval(breatheAnimation, totalTime)
+
+window.addEventListener('keydown', playSong);
