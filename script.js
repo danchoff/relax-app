@@ -5,6 +5,9 @@ const totalTime = 7500
 const breatheTime = (totalTime / 5) * 2
 const holdTime = totalTime / 5
 
+let audio = new Audio('song/lofi-song.mp3')
+audio.play()
+
 breatheAnimation()
 
 function breatheAnimation () {
