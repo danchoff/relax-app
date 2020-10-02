@@ -17,14 +17,14 @@ function pauseSong() {
 breatheAnimation()
 
 function breatheAnimation () {
-  text.innerHTML = 'Breath In!'
+  text.innerHTML = 'Inhale...'
   container.className = 'container grow'
 
   setTimeout(() => {
       text.innerHTML = 'Hold'
 
       setTimeout(() => {
-         text.innerHTML = 'Breath Out!'
+         text.innerHTML = 'Outhale....'
          container.className = 'container shrink'
       }, holdTime)
   }, breatheTime)

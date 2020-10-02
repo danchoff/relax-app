@@ -81,6 +81,13 @@ body {
 .play {
   font-size: 32px;
   margin-right: 1em;
+  background: transparent;
+  border: none;
+}
+
+.play:hover {
+  cursor: pointer;
+  
 }
 
 .pause {
