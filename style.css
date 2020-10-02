@@ -95,7 +95,7 @@ body {
 }
 
 .container.grow {
-  animation: grow 4s linear forwards;
+  animation: grow 3.62s linear forwards;
 }
 
 .container.shrink {
